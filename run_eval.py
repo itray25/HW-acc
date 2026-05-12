@@ -8,7 +8,7 @@ import torch
 from datasets import load_dataset
 from transformers import AutoModelForCausalLM, AutoTokenizer, DynamicCache
 
-from SnapNV import SnapKVPress
+from SnapKV import SnapKVPress
 
 
 def patch_gpt_neox_for_kvpress(model):
